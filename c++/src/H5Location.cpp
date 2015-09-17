@@ -887,7 +887,6 @@ H5O_type_t H5Location::p_get_ref_obj_type(void *ref, H5R_type_t ref_type) const
    return(obj_type);
 }
 
-#endif // DOXYGEN_SHOULD_SKIP_THIS
 
 //--------------------------------------------------------------------------
 // Function:	H5Location::getRegion
@@ -942,7 +941,7 @@ H5Location::~H5Location() {}
 //--------------------------------------------------------------------------
 void f_Attribute_setId(Attribute* attr, hid_t new_id)
 {
-    attr->id = new_id;
+    attr->p_setId(new_id);
 }
 
 //--------------------------------------------------------------------------
@@ -957,8 +956,10 @@ void f_Attribute_setId(Attribute* attr, hid_t new_id)
 //--------------------------------------------------------------------------
 void f_DataSpace_setId(DataSpace* dspace, hid_t new_id)
 {
-    dspace->id = new_id;
+    dspace->p_setId(new_id);
 }
+
+#endif // DOXYGEN_SHOULD_SKIP_THIS
 
 #ifndef H5_NO_NAMESPACE
 } // end namespace
