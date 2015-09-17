@@ -1,0 +1,2 @@
+/usr/bin/ar cq ../bin/libhdf5_test_debug.a  CMakeFiles/hdf5_test.dir/h5test.c.o CMakeFiles/hdf5_test.dir/testframe.c.o CMakeFiles/hdf5_test.dir/cache_common.c.o
+/usr/bin/ranlib ../bin/libhdf5_test_debug.a

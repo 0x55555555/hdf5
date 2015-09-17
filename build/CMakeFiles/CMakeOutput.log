@@ -1,0 +1,1636 @@
+The system is: Darwin - 14.5.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Volumes/User/hdf5/build/CMakeFiles/3.1.0/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is AppleClang, found in "/Volumes/User/hdf5/build/CMakeFiles/3.1.0/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2022430693/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2022430693.dir/build.make CMakeFiles/cmTryCompileExec2022430693.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2022430693.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2022430693.dir/testCCompiler.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec2022430693
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2022430693.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec2022430693.dir/testCCompiler.c.o  -o cmTryCompileExec2022430693  
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec608908098/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec608908098.dir/build.make CMakeFiles/cmTryCompileExec608908098.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec608908098.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec608908098.dir/CMakeCCompilerABI.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec608908098
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec608908098.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec608908098.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec608908098   
+Apple LLVM version 7.0.0 (clang-700.0.72)
+Target: x86_64-apple-darwin14.5.0
+Thread model: posix
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.10.0 -o cmTryCompileExec608908098 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec608908098.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-253.3
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec608908098/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec608908098.dir/build.make CMakeFiles/cmTryCompileExec608908098.dir/build]
+  ignore line: [/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec608908098.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec608908098.dir/CMakeCCompilerABI.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec608908098]
+  ignore line: [/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec608908098.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec608908098.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec608908098   ]
+  ignore line: [Apple LLVM version 7.0.0 (clang-700.0.72)]
+  ignore line: [Target: x86_64-apple-darwin14.5.0]
+  ignore line: [Thread model: posix]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.10.0 -o cmTryCompileExec608908098 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec608908098.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.10.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec608908098] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec608908098.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  collapse lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a]
+  implicit dirs: [/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3078802742/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3078802742.dir/build.make CMakeFiles/cmTryCompileExec3078802742.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3078802742.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3078802742.dir/testCXXCompiler.cxx.o -c /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec3078802742
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3078802742.dir/link.txt --verbose=1
+/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec3078802742.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec3078802742  
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec927331340/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec927331340.dir/build.make CMakeFiles/cmTryCompileExec927331340.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec927331340.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec927331340.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec927331340
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec927331340.dir/link.txt --verbose=1
+/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec927331340.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec927331340   
+Apple LLVM version 7.0.0 (clang-700.0.72)
+Target: x86_64-apple-darwin14.5.0
+Thread model: posix
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.10.0 -o cmTryCompileExec927331340 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec927331340.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-253.3
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec927331340/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec927331340.dir/build.make CMakeFiles/cmTryCompileExec927331340.dir/build]
+  ignore line: [/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec927331340.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec927331340.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec927331340]
+  ignore line: [/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec927331340.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec927331340.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec927331340   ]
+  ignore line: [Apple LLVM version 7.0.0 (clang-700.0.72)]
+  ignore line: [Target: x86_64-apple-darwin14.5.0]
+  ignore line: [Thread model: posix]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.10.0 -o cmTryCompileExec927331340 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec927331340.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.10.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec927331340] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec927331340.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  collapse lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: [c++;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.0.0/lib/darwin/libclang_rt.osx.a]
+  implicit dirs: [/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+
+Determining if the CXX compiler has std namespace passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3647422259/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3647422259.dir/build.make CMakeFiles/cmTryCompileExec3647422259.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3647422259.dir/TestForSTDNamespace.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3647422259.dir/TestForSTDNamespace.cxx.o -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/TestForSTDNamespace.cxx
+Linking CXX executable cmTryCompileExec3647422259
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3647422259.dir/link.txt --verbose=1
+/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec3647422259.dir/TestForSTDNamespace.cxx.o  -o cmTryCompileExec3647422259  
+
+
+Determining if the function ceil exists in the m; passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2783833654/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2783833654.dir/build.make CMakeFiles/cmTryCompileExec2783833654.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2783833654.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=ceil   -o CMakeFiles/cmTryCompileExec2783833654.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'ceil' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS ceil
+                              ^
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:3:6: note: 'ceil' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS ceil
+                              ^
+1 warning generated.
+Linking C executable cmTryCompileExec2783833654
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2783833654.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=ceil -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec2783833654.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2783833654  -lm 
+
+
+Determining if the function dlopen exists in the dl;m passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4198905009/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec4198905009.dir/build.make CMakeFiles/cmTryCompileExec4198905009.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4198905009.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dlopen   -o CMakeFiles/cmTryCompileExec4198905009.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4198905009
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4198905009.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dlopen -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec4198905009.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4198905009  -ldl -lm 
+
+
+Determining if the function gethostbyname exists in the c passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec649877299/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec649877299.dir/build.make CMakeFiles/cmTryCompileExec649877299.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec649877299.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTryCompileExec649877299.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec649877299
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec649877299.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec649877299.dir/CheckFunctionExists.c.o  -o cmTryCompileExec649877299  -lc 
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec172523663/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec172523663.dir/build.make CMakeFiles/cmTryCompileExec172523663.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec172523663.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec172523663.dir/CheckIncludeFile.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec172523663
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec172523663.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec172523663.dir/CheckIncludeFile.c.o  -o cmTryCompileExec172523663  
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2849114614/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2849114614.dir/build.make CMakeFiles/cmTryCompileExec2849114614.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2849114614.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2849114614.dir/CheckIncludeFile.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2849114614
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2849114614.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec2849114614.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2849114614  
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2226533270/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2226533270.dir/build.make CMakeFiles/cmTryCompileExec2226533270.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2226533270.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2226533270.dir/CheckIncludeFile.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2226533270
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2226533270.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec2226533270.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2226533270  
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4267594334/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec4267594334.dir/build.make CMakeFiles/cmTryCompileExec4267594334.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4267594334.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4267594334.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTryCompileExec4267594334
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4267594334.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec4267594334.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTryCompileExec4267594334  -lm -ldl 
+
+
+Determining if files ;sys/resource.h exist passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1032454450/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1032454450.dir/build.make CMakeFiles/cmTryCompileExec1032454450.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1032454450.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1032454450.dir/CheckIncludeFiles.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1032454450
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1032454450.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1032454450.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1032454450  
+
+
+Determining if files sys/resource.h;sys/time.h exist passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1799910134/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1799910134.dir/build.make CMakeFiles/cmTryCompileExec1799910134.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1799910134.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1799910134.dir/CheckIncludeFiles.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1799910134
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1799910134.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1799910134.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1799910134  
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h exist passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3029014302/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3029014302.dir/build.make CMakeFiles/cmTryCompileExec3029014302.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3029014302.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3029014302.dir/CheckIncludeFiles.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3029014302
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3029014302.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec3029014302.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3029014302  
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h exist passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1045263571/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1045263571.dir/build.make CMakeFiles/cmTryCompileExec1045263571.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1045263571.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1045263571.dir/CheckIncludeFiles.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1045263571
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1045263571.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1045263571.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1045263571  
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h exist passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3554570022/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3554570022.dir/build.make CMakeFiles/cmTryCompileExec3554570022.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3554570022.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3554570022.dir/CheckIncludeFiles.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3554570022
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3554570022.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec3554570022.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3554570022  
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h exist passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec306965025/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec306965025.dir/build.make CMakeFiles/cmTryCompileExec306965025.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec306965025.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec306965025.dir/CheckIncludeFiles.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec306965025
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec306965025.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec306965025.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec306965025  
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h exist passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec957254637/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec957254637.dir/build.make CMakeFiles/cmTryCompileExec957254637.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec957254637.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec957254637.dir/CheckIncludeFiles.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec957254637
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec957254637.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec957254637.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec957254637  
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h exist passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1270628411/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1270628411.dir/build.make CMakeFiles/cmTryCompileExec1270628411.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1270628411.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1270628411.dir/CheckIncludeFiles.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1270628411
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1270628411.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1270628411.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1270628411  
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h exist passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1408430734/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1408430734.dir/build.make CMakeFiles/cmTryCompileExec1408430734.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1408430734.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1408430734.dir/CheckIncludeFiles.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1408430734
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1408430734.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1408430734.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1408430734  
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;dirent.h exist passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3059355709/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3059355709.dir/build.make CMakeFiles/cmTryCompileExec3059355709.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3059355709.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3059355709.dir/CheckIncludeFiles.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3059355709
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3059355709.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec3059355709.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3059355709  
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;dirent.h;stdint.h exist passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4161290247/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec4161290247.dir/build.make CMakeFiles/cmTryCompileExec4161290247.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4161290247.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4161290247.dir/CheckIncludeFiles.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec4161290247
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4161290247.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec4161290247.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4161290247  
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3419782867/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3419782867.dir/build.make CMakeFiles/cmTryCompileExec3419782867.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3419782867.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3419782867.dir/CheckIncludeFile.cxx.o -c /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec3419782867
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3419782867.dir/link.txt --verbose=1
+/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec3419782867.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec3419782867  
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;dirent.h;stdint.h;mach/mach_time.h exist passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1111516733/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1111516733.dir/build.make CMakeFiles/cmTryCompileExec1111516733.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1111516733.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1111516733.dir/CheckIncludeFiles.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1111516733
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1111516733.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1111516733.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1111516733  
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;dirent.h;stdint.h;mach/mach_time.h;sys/timeb.h exist passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2617113230/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2617113230.dir/build.make CMakeFiles/cmTryCompileExec2617113230.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2617113230.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2617113230.dir/CheckIncludeFiles.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2617113230
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2617113230.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec2617113230.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2617113230  
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;dirent.h;stdint.h;mach/mach_time.h;sys/timeb.h;pthread.h exist passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec228833974/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec228833974.dir/build.make CMakeFiles/cmTryCompileExec228833974.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec228833974.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec228833974.dir/CheckIncludeFiles.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec228833974
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec228833974.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec228833974.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec228833974  
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;dirent.h;stdint.h;mach/mach_time.h;sys/timeb.h;pthread.h;string.h exist passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3985831563/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3985831563.dir/build.make CMakeFiles/cmTryCompileExec3985831563.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3985831563.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3985831563.dir/CheckIncludeFiles.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3985831563
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3985831563.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec3985831563.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3985831563  
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;dirent.h;stdint.h;mach/mach_time.h;sys/timeb.h;pthread.h;string.h;strings.h exist passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2589879744/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2589879744.dir/build.make CMakeFiles/cmTryCompileExec2589879744.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2589879744.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2589879744.dir/CheckIncludeFiles.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2589879744
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2589879744.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec2589879744.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2589879744  
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;dirent.h;stdint.h;mach/mach_time.h;sys/timeb.h;pthread.h;string.h;strings.h;time.h exist passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2752879924/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2752879924.dir/build.make CMakeFiles/cmTryCompileExec2752879924.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2752879924.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2752879924.dir/CheckIncludeFiles.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2752879924
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2752879924.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec2752879924.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2752879924  
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;dirent.h;stdint.h;mach/mach_time.h;sys/timeb.h;pthread.h;string.h;strings.h;time.h;stdlib.h exist passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2048020656/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2048020656.dir/build.make CMakeFiles/cmTryCompileExec2048020656.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2048020656.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2048020656.dir/CheckIncludeFiles.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2048020656
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2048020656.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec2048020656.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2048020656  
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;dirent.h;stdint.h;mach/mach_time.h;sys/timeb.h;pthread.h;string.h;strings.h;time.h;stdlib.h;memory.h exist passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3406724482/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3406724482.dir/build.make CMakeFiles/cmTryCompileExec3406724482.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3406724482.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3406724482.dir/CheckIncludeFiles.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3406724482
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3406724482.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec3406724482.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3406724482  
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;dirent.h;stdint.h;mach/mach_time.h;sys/timeb.h;pthread.h;string.h;strings.h;time.h;stdlib.h;memory.h;dlfcn.h exist passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2396300052/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2396300052.dir/build.make CMakeFiles/cmTryCompileExec2396300052.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2396300052.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2396300052.dir/CheckIncludeFiles.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2396300052
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2396300052.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec2396300052.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2396300052  
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;dirent.h;stdint.h;mach/mach_time.h;sys/timeb.h;pthread.h;string.h;strings.h;time.h;stdlib.h;memory.h;dlfcn.h;inttypes.h exist passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec23526747/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec23526747.dir/build.make CMakeFiles/cmTryCompileExec23526747.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec23526747.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec23526747.dir/CheckIncludeFiles.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec23526747
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec23526747.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec23526747.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec23526747  
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;dirent.h;stdint.h;mach/mach_time.h;sys/timeb.h;pthread.h;string.h;strings.h;time.h;stdlib.h;memory.h;dlfcn.h;inttypes.h;netinet/in.h exist passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec231426582/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec231426582.dir/build.make CMakeFiles/cmTryCompileExec231426582.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec231426582.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec231426582.dir/CheckIncludeFiles.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec231426582
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec231426582.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec231426582.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec231426582  
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2241436735/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2241436735.dir/build.make CMakeFiles/cmTryCompileExec2241436735.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2241436735.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -DCHECK_FUNCTION_EXISTS=fseeko   -o CMakeFiles/cmTryCompileExec2241436735.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2241436735
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2241436735.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fseeko -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec2241436735.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2241436735  -lm -ldl 
+
+
+Determining if the function ftello exists passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2954876884/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2954876884.dir/build.make CMakeFiles/cmTryCompileExec2954876884.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2954876884.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -DCHECK_FUNCTION_EXISTS=ftello   -o CMakeFiles/cmTryCompileExec2954876884.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2954876884
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2954876884.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=ftello -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec2954876884.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2954876884  -lm -ldl 
+
+
+Determining if the function fstat64 exists passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1312272295/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1312272295.dir/build.make CMakeFiles/cmTryCompileExec1312272295.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1312272295.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -DCHECK_FUNCTION_EXISTS=fstat64   -o CMakeFiles/cmTryCompileExec1312272295.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1312272295
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1312272295.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fstat64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1312272295.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1312272295  -lm -ldl 
+
+
+Determining if the function stat64 exists passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3568981797/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3568981797.dir/build.make CMakeFiles/cmTryCompileExec3568981797.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3568981797.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -DCHECK_FUNCTION_EXISTS=stat64   -o CMakeFiles/cmTryCompileExec3568981797.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3568981797
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3568981797.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=stat64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec3568981797.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3568981797  -lm -ldl 
+
+
+Determining size of char passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1831284726/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1831284726.dir/build.make CMakeFiles/cmTryCompileExec1831284726.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1831284726.dir/H5_SIZEOF_CHAR.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -o CMakeFiles/cmTryCompileExec1831284726.dir/H5_SIZEOF_CHAR.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_CHAR.c
+Linking C executable cmTryCompileExec1831284726
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1831284726.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1831284726.dir/H5_SIZEOF_CHAR.c.o  -o cmTryCompileExec1831284726  -lm -ldl 
+
+
+Determining size of short passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3795744369/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3795744369.dir/build.make CMakeFiles/cmTryCompileExec3795744369.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3795744369.dir/H5_SIZEOF_SHORT.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -o CMakeFiles/cmTryCompileExec3795744369.dir/H5_SIZEOF_SHORT.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_SHORT.c
+Linking C executable cmTryCompileExec3795744369
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3795744369.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec3795744369.dir/H5_SIZEOF_SHORT.c.o  -o cmTryCompileExec3795744369  -lm -ldl 
+
+
+Determining size of int passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec242289700/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec242289700.dir/build.make CMakeFiles/cmTryCompileExec242289700.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec242289700.dir/H5_SIZEOF_INT.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -o CMakeFiles/cmTryCompileExec242289700.dir/H5_SIZEOF_INT.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT.c
+Linking C executable cmTryCompileExec242289700
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec242289700.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec242289700.dir/H5_SIZEOF_INT.c.o  -o cmTryCompileExec242289700  -lm -ldl 
+
+
+Determining size of unsigned passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec955577165/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec955577165.dir/build.make CMakeFiles/cmTryCompileExec955577165.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec955577165.dir/H5_SIZEOF_UNSIGNED.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -o CMakeFiles/cmTryCompileExec955577165.dir/H5_SIZEOF_UNSIGNED.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_UNSIGNED.c
+Linking C executable cmTryCompileExec955577165
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec955577165.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec955577165.dir/H5_SIZEOF_UNSIGNED.c.o  -o cmTryCompileExec955577165  -lm -ldl 
+
+
+Determining size of long long passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3068225703/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3068225703.dir/build.make CMakeFiles/cmTryCompileExec3068225703.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3068225703.dir/H5_SIZEOF_LONG_LONG.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -o CMakeFiles/cmTryCompileExec3068225703.dir/H5_SIZEOF_LONG_LONG.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_LONG_LONG.c
+Linking C executable cmTryCompileExec3068225703
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3068225703.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec3068225703.dir/H5_SIZEOF_LONG_LONG.c.o  -o cmTryCompileExec3068225703  -lm -ldl 
+
+
+Determining size of float passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec168420990/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec168420990.dir/build.make CMakeFiles/cmTryCompileExec168420990.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec168420990.dir/H5_SIZEOF_FLOAT.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -o CMakeFiles/cmTryCompileExec168420990.dir/H5_SIZEOF_FLOAT.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_FLOAT.c
+Linking C executable cmTryCompileExec168420990
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec168420990.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec168420990.dir/H5_SIZEOF_FLOAT.c.o  -o cmTryCompileExec168420990  -lm -ldl 
+
+
+Determining size of double passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec497643129/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec497643129.dir/build.make CMakeFiles/cmTryCompileExec497643129.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec497643129.dir/H5_SIZEOF_DOUBLE.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -o CMakeFiles/cmTryCompileExec497643129.dir/H5_SIZEOF_DOUBLE.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_DOUBLE.c
+Linking C executable cmTryCompileExec497643129
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec497643129.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec497643129.dir/H5_SIZEOF_DOUBLE.c.o  -o cmTryCompileExec497643129  -lm -ldl 
+
+
+Determining size of long double passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4213549107/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec4213549107.dir/build.make CMakeFiles/cmTryCompileExec4213549107.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4213549107.dir/H5_SIZEOF_LONG_DOUBLE.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -o CMakeFiles/cmTryCompileExec4213549107.dir/H5_SIZEOF_LONG_DOUBLE.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_LONG_DOUBLE.c
+Linking C executable cmTryCompileExec4213549107
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4213549107.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec4213549107.dir/H5_SIZEOF_LONG_DOUBLE.c.o  -o cmTryCompileExec4213549107  -lm -ldl 
+
+
+Determining size of int8_t passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3878719688/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3878719688.dir/build.make CMakeFiles/cmTryCompileExec3878719688.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3878719688.dir/H5_SIZEOF_INT8_T.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -o CMakeFiles/cmTryCompileExec3878719688.dir/H5_SIZEOF_INT8_T.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT8_T.c
+Linking C executable cmTryCompileExec3878719688
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3878719688.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec3878719688.dir/H5_SIZEOF_INT8_T.c.o  -o cmTryCompileExec3878719688  -lm -ldl 
+
+
+Determining size of uint8_t passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec557438106/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec557438106.dir/build.make CMakeFiles/cmTryCompileExec557438106.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec557438106.dir/H5_SIZEOF_UINT8_T.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -o CMakeFiles/cmTryCompileExec557438106.dir/H5_SIZEOF_UINT8_T.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT8_T.c
+Linking C executable cmTryCompileExec557438106
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec557438106.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec557438106.dir/H5_SIZEOF_UINT8_T.c.o  -o cmTryCompileExec557438106  -lm -ldl 
+
+
+Determining size of int_least8_t passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec456171739/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec456171739.dir/build.make CMakeFiles/cmTryCompileExec456171739.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec456171739.dir/H5_SIZEOF_INT_LEAST8_T.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -o CMakeFiles/cmTryCompileExec456171739.dir/H5_SIZEOF_INT_LEAST8_T.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT_LEAST8_T.c
+Linking C executable cmTryCompileExec456171739
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec456171739.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec456171739.dir/H5_SIZEOF_INT_LEAST8_T.c.o  -o cmTryCompileExec456171739  -lm -ldl 
+
+
+Determining size of uint_least8_t passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1776674051/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1776674051.dir/build.make CMakeFiles/cmTryCompileExec1776674051.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1776674051.dir/H5_SIZEOF_UINT_LEAST8_T.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -o CMakeFiles/cmTryCompileExec1776674051.dir/H5_SIZEOF_UINT_LEAST8_T.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT_LEAST8_T.c
+Linking C executable cmTryCompileExec1776674051
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1776674051.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1776674051.dir/H5_SIZEOF_UINT_LEAST8_T.c.o  -o cmTryCompileExec1776674051  -lm -ldl 
+
+
+Determining size of int_fast8_t passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1983559131/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1983559131.dir/build.make CMakeFiles/cmTryCompileExec1983559131.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1983559131.dir/H5_SIZEOF_INT_FAST8_T.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -o CMakeFiles/cmTryCompileExec1983559131.dir/H5_SIZEOF_INT_FAST8_T.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT_FAST8_T.c
+Linking C executable cmTryCompileExec1983559131
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1983559131.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1983559131.dir/H5_SIZEOF_INT_FAST8_T.c.o  -o cmTryCompileExec1983559131  -lm -ldl 
+
+
+Determining size of uint_fast8_t passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec294907519/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec294907519.dir/build.make CMakeFiles/cmTryCompileExec294907519.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec294907519.dir/H5_SIZEOF_UINT_FAST8_T.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -o CMakeFiles/cmTryCompileExec294907519.dir/H5_SIZEOF_UINT_FAST8_T.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT_FAST8_T.c
+Linking C executable cmTryCompileExec294907519
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec294907519.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec294907519.dir/H5_SIZEOF_UINT_FAST8_T.c.o  -o cmTryCompileExec294907519  -lm -ldl 
+
+
+Determining size of int16_t passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec476054019/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec476054019.dir/build.make CMakeFiles/cmTryCompileExec476054019.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec476054019.dir/H5_SIZEOF_INT16_T.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -o CMakeFiles/cmTryCompileExec476054019.dir/H5_SIZEOF_INT16_T.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT16_T.c
+Linking C executable cmTryCompileExec476054019
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec476054019.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec476054019.dir/H5_SIZEOF_INT16_T.c.o  -o cmTryCompileExec476054019  -lm -ldl 
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2240845523/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2240845523.dir/build.make CMakeFiles/cmTryCompileExec2240845523.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2240845523.dir/H5_SIZEOF_UINT16_T.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -o CMakeFiles/cmTryCompileExec2240845523.dir/H5_SIZEOF_UINT16_T.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT16_T.c
+Linking C executable cmTryCompileExec2240845523
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2240845523.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec2240845523.dir/H5_SIZEOF_UINT16_T.c.o  -o cmTryCompileExec2240845523  -lm -ldl 
+
+
+Determining size of int_least16_t passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4272755772/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec4272755772.dir/build.make CMakeFiles/cmTryCompileExec4272755772.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4272755772.dir/H5_SIZEOF_INT_LEAST16_T.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -o CMakeFiles/cmTryCompileExec4272755772.dir/H5_SIZEOF_INT_LEAST16_T.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT_LEAST16_T.c
+Linking C executable cmTryCompileExec4272755772
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4272755772.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec4272755772.dir/H5_SIZEOF_INT_LEAST16_T.c.o  -o cmTryCompileExec4272755772  -lm -ldl 
+
+
+Determining size of uint_least16_t passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3954184590/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3954184590.dir/build.make CMakeFiles/cmTryCompileExec3954184590.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3954184590.dir/H5_SIZEOF_UINT_LEAST16_T.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -o CMakeFiles/cmTryCompileExec3954184590.dir/H5_SIZEOF_UINT_LEAST16_T.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT_LEAST16_T.c
+Linking C executable cmTryCompileExec3954184590
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3954184590.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec3954184590.dir/H5_SIZEOF_UINT_LEAST16_T.c.o  -o cmTryCompileExec3954184590  -lm -ldl 
+
+
+Determining size of int_fast16_t passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1024103580/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1024103580.dir/build.make CMakeFiles/cmTryCompileExec1024103580.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1024103580.dir/H5_SIZEOF_INT_FAST16_T.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -o CMakeFiles/cmTryCompileExec1024103580.dir/H5_SIZEOF_INT_FAST16_T.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT_FAST16_T.c
+Linking C executable cmTryCompileExec1024103580
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1024103580.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1024103580.dir/H5_SIZEOF_INT_FAST16_T.c.o  -o cmTryCompileExec1024103580  -lm -ldl 
+
+
+Determining size of uint_fast16_t passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3874799228/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3874799228.dir/build.make CMakeFiles/cmTryCompileExec3874799228.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3874799228.dir/H5_SIZEOF_UINT_FAST16_T.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -o CMakeFiles/cmTryCompileExec3874799228.dir/H5_SIZEOF_UINT_FAST16_T.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT_FAST16_T.c
+Linking C executable cmTryCompileExec3874799228
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3874799228.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec3874799228.dir/H5_SIZEOF_UINT_FAST16_T.c.o  -o cmTryCompileExec3874799228  -lm -ldl 
+
+
+Determining size of int32_t passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec555793125/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec555793125.dir/build.make CMakeFiles/cmTryCompileExec555793125.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec555793125.dir/H5_SIZEOF_INT32_T.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -o CMakeFiles/cmTryCompileExec555793125.dir/H5_SIZEOF_INT32_T.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT32_T.c
+Linking C executable cmTryCompileExec555793125
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec555793125.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec555793125.dir/H5_SIZEOF_INT32_T.c.o  -o cmTryCompileExec555793125  -lm -ldl 
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3277243018/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3277243018.dir/build.make CMakeFiles/cmTryCompileExec3277243018.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3277243018.dir/H5_SIZEOF_UINT32_T.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -o CMakeFiles/cmTryCompileExec3277243018.dir/H5_SIZEOF_UINT32_T.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT32_T.c
+Linking C executable cmTryCompileExec3277243018
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3277243018.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec3277243018.dir/H5_SIZEOF_UINT32_T.c.o  -o cmTryCompileExec3277243018  -lm -ldl 
+
+
+Determining size of int_least32_t passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1684826949/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1684826949.dir/build.make CMakeFiles/cmTryCompileExec1684826949.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1684826949.dir/H5_SIZEOF_INT_LEAST32_T.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -o CMakeFiles/cmTryCompileExec1684826949.dir/H5_SIZEOF_INT_LEAST32_T.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT_LEAST32_T.c
+Linking C executable cmTryCompileExec1684826949
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1684826949.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1684826949.dir/H5_SIZEOF_INT_LEAST32_T.c.o  -o cmTryCompileExec1684826949  -lm -ldl 
+
+
+Determining size of uint_least32_t passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1487538256/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1487538256.dir/build.make CMakeFiles/cmTryCompileExec1487538256.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1487538256.dir/H5_SIZEOF_UINT_LEAST32_T.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -o CMakeFiles/cmTryCompileExec1487538256.dir/H5_SIZEOF_UINT_LEAST32_T.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT_LEAST32_T.c
+Linking C executable cmTryCompileExec1487538256
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1487538256.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1487538256.dir/H5_SIZEOF_UINT_LEAST32_T.c.o  -o cmTryCompileExec1487538256  -lm -ldl 
+
+
+Determining size of int_fast32_t passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3000462778/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3000462778.dir/build.make CMakeFiles/cmTryCompileExec3000462778.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3000462778.dir/H5_SIZEOF_INT_FAST32_T.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -o CMakeFiles/cmTryCompileExec3000462778.dir/H5_SIZEOF_INT_FAST32_T.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT_FAST32_T.c
+Linking C executable cmTryCompileExec3000462778
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3000462778.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec3000462778.dir/H5_SIZEOF_INT_FAST32_T.c.o  -o cmTryCompileExec3000462778  -lm -ldl 
+
+
+Determining size of uint_fast32_t passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec714038251/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec714038251.dir/build.make CMakeFiles/cmTryCompileExec714038251.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec714038251.dir/H5_SIZEOF_UINT_FAST32_T.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -o CMakeFiles/cmTryCompileExec714038251.dir/H5_SIZEOF_UINT_FAST32_T.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT_FAST32_T.c
+Linking C executable cmTryCompileExec714038251
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec714038251.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec714038251.dir/H5_SIZEOF_UINT_FAST32_T.c.o  -o cmTryCompileExec714038251  -lm -ldl 
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1584338089/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1584338089.dir/build.make CMakeFiles/cmTryCompileExec1584338089.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1584338089.dir/H5_SIZEOF_INT64_T.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -o CMakeFiles/cmTryCompileExec1584338089.dir/H5_SIZEOF_INT64_T.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT64_T.c
+Linking C executable cmTryCompileExec1584338089
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1584338089.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1584338089.dir/H5_SIZEOF_INT64_T.c.o  -o cmTryCompileExec1584338089  -lm -ldl 
+
+
+Determining size of uint64_t passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3649009811/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3649009811.dir/build.make CMakeFiles/cmTryCompileExec3649009811.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3649009811.dir/H5_SIZEOF_UINT64_T.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -o CMakeFiles/cmTryCompileExec3649009811.dir/H5_SIZEOF_UINT64_T.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT64_T.c
+Linking C executable cmTryCompileExec3649009811
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3649009811.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec3649009811.dir/H5_SIZEOF_UINT64_T.c.o  -o cmTryCompileExec3649009811  -lm -ldl 
+
+
+Determining size of int_least64_t passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1995563678/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1995563678.dir/build.make CMakeFiles/cmTryCompileExec1995563678.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1995563678.dir/H5_SIZEOF_INT_LEAST64_T.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -o CMakeFiles/cmTryCompileExec1995563678.dir/H5_SIZEOF_INT_LEAST64_T.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT_LEAST64_T.c
+Linking C executable cmTryCompileExec1995563678
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1995563678.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1995563678.dir/H5_SIZEOF_INT_LEAST64_T.c.o  -o cmTryCompileExec1995563678  -lm -ldl 
+
+
+Determining size of uint_least64_t passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2191596510/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2191596510.dir/build.make CMakeFiles/cmTryCompileExec2191596510.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2191596510.dir/H5_SIZEOF_UINT_LEAST64_T.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -o CMakeFiles/cmTryCompileExec2191596510.dir/H5_SIZEOF_UINT_LEAST64_T.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT_LEAST64_T.c
+Linking C executable cmTryCompileExec2191596510
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2191596510.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec2191596510.dir/H5_SIZEOF_UINT_LEAST64_T.c.o  -o cmTryCompileExec2191596510  -lm -ldl 
+
+
+Determining size of int_fast64_t passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4054561977/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec4054561977.dir/build.make CMakeFiles/cmTryCompileExec4054561977.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4054561977.dir/H5_SIZEOF_INT_FAST64_T.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -o CMakeFiles/cmTryCompileExec4054561977.dir/H5_SIZEOF_INT_FAST64_T.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT_FAST64_T.c
+Linking C executable cmTryCompileExec4054561977
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4054561977.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec4054561977.dir/H5_SIZEOF_INT_FAST64_T.c.o  -o cmTryCompileExec4054561977  -lm -ldl 
+
+
+Determining size of uint_fast64_t passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec342076418/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec342076418.dir/build.make CMakeFiles/cmTryCompileExec342076418.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec342076418.dir/H5_SIZEOF_UINT_FAST64_T.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -o CMakeFiles/cmTryCompileExec342076418.dir/H5_SIZEOF_UINT_FAST64_T.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT_FAST64_T.c
+Linking C executable cmTryCompileExec342076418
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec342076418.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec342076418.dir/H5_SIZEOF_UINT_FAST64_T.c.o  -o cmTryCompileExec342076418  -lm -ldl 
+
+
+Determining size of off_t passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3314386441/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3314386441.dir/build.make CMakeFiles/cmTryCompileExec3314386441.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3314386441.dir/H5_SIZEOF_OFF_T.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -o CMakeFiles/cmTryCompileExec3314386441.dir/H5_SIZEOF_OFF_T.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_OFF_T.c
+Linking C executable cmTryCompileExec3314386441
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3314386441.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec3314386441.dir/H5_SIZEOF_OFF_T.c.o  -o cmTryCompileExec3314386441  -lm -ldl 
+
+
+Determining if the function ioctl exists passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1068609627/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1068609627.dir/build.make CMakeFiles/cmTryCompileExec1068609627.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1068609627.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -DCHECK_FUNCTION_EXISTS=ioctl   -o CMakeFiles/cmTryCompileExec1068609627.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1068609627
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1068609627.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=ioctl -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1068609627.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1068609627  -lm -ldl 
+
+
+Determining if the TIOCGWINSZ exist passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1933482679/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1933482679.dir/build.make CMakeFiles/cmTryCompileExec1933482679.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1933482679.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -o CMakeFiles/cmTryCompileExec1933482679.dir/CheckSymbolExists.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1933482679
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1933482679.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1933482679.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1933482679  -lm -ldl 
+
+File /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/ioctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef TIOCGWINSZ
+  return ((int*)(&TIOCGWINSZ))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the TIOCGETD exist passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1310397678/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1310397678.dir/build.make CMakeFiles/cmTryCompileExec1310397678.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1310397678.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -o CMakeFiles/cmTryCompileExec1310397678.dir/CheckSymbolExists.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1310397678
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1310397678.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1310397678.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1310397678  -lm -ldl 
+
+File /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/ioctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef TIOCGETD
+  return ((int*)(&TIOCGETD))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function alarm exists passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3388170797/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3388170797.dir/build.make CMakeFiles/cmTryCompileExec3388170797.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3388170797.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -DCHECK_FUNCTION_EXISTS=alarm   -o CMakeFiles/cmTryCompileExec3388170797.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3388170797
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3388170797.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=alarm -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec3388170797.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3388170797  -lm -ldl 
+
+
+Determining if the function fork exists passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2948345239/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2948345239.dir/build.make CMakeFiles/cmTryCompileExec2948345239.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2948345239.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -DCHECK_FUNCTION_EXISTS=fork   -o CMakeFiles/cmTryCompileExec2948345239.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2948345239
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2948345239.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fork -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec2948345239.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2948345239  -lm -ldl 
+
+
+Determining if the function frexpf exists passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec659260522/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec659260522.dir/build.make CMakeFiles/cmTryCompileExec659260522.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec659260522.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -DCHECK_FUNCTION_EXISTS=frexpf   -o CMakeFiles/cmTryCompileExec659260522.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'frexpf' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS frexpf
+                              ^
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:3:6: note: 'frexpf' is a builtin with type 'float (float, int *)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS frexpf
+                              ^
+1 warning generated.
+Linking C executable cmTryCompileExec659260522
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec659260522.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=frexpf -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec659260522.dir/CheckFunctionExists.c.o  -o cmTryCompileExec659260522  -lm -ldl 
+
+
+Determining if the function frexpl exists passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2632938634/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2632938634.dir/build.make CMakeFiles/cmTryCompileExec2632938634.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2632938634.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -DCHECK_FUNCTION_EXISTS=frexpl   -o CMakeFiles/cmTryCompileExec2632938634.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'frexpl' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS frexpl
+                              ^
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:3:6: note: 'frexpl' is a builtin with type 'long double (long double, int *)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS frexpl
+                              ^
+1 warning generated.
+Linking C executable cmTryCompileExec2632938634
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2632938634.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=frexpl -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec2632938634.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2632938634  -lm -ldl 
+
+
+Determining if the function gethostname exists passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2246359883/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2246359883.dir/build.make CMakeFiles/cmTryCompileExec2246359883.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2246359883.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -DCHECK_FUNCTION_EXISTS=gethostname   -o CMakeFiles/cmTryCompileExec2246359883.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2246359883
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2246359883.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostname -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec2246359883.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2246359883  -lm -ldl 
+
+
+Determining if the function getpwuid exists passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2635735577/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2635735577.dir/build.make CMakeFiles/cmTryCompileExec2635735577.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2635735577.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -DCHECK_FUNCTION_EXISTS=getpwuid   -o CMakeFiles/cmTryCompileExec2635735577.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2635735577
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2635735577.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getpwuid -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec2635735577.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2635735577  -lm -ldl 
+
+
+Determining if the function getrusage exists passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2775676191/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2775676191.dir/build.make CMakeFiles/cmTryCompileExec2775676191.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2775676191.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -DCHECK_FUNCTION_EXISTS=getrusage   -o CMakeFiles/cmTryCompileExec2775676191.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2775676191
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2775676191.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getrusage -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec2775676191.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2775676191  -lm -ldl 
+
+
+Determining if the function lstat exists passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3862477523/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3862477523.dir/build.make CMakeFiles/cmTryCompileExec3862477523.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3862477523.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -DCHECK_FUNCTION_EXISTS=lstat   -o CMakeFiles/cmTryCompileExec3862477523.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3862477523
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3862477523.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=lstat -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec3862477523.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3862477523  -lm -ldl 
+
+
+Determining if the function rand_r exists passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3491119467/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3491119467.dir/build.make CMakeFiles/cmTryCompileExec3491119467.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3491119467.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -DCHECK_FUNCTION_EXISTS=rand_r   -o CMakeFiles/cmTryCompileExec3491119467.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3491119467
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3491119467.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=rand_r -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec3491119467.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3491119467  -lm -ldl 
+
+
+Determining if the function random exists passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec294374087/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec294374087.dir/build.make CMakeFiles/cmTryCompileExec294374087.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec294374087.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -DCHECK_FUNCTION_EXISTS=random   -o CMakeFiles/cmTryCompileExec294374087.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec294374087
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec294374087.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=random -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec294374087.dir/CheckFunctionExists.c.o  -o cmTryCompileExec294374087  -lm -ldl 
+
+
+Determining if the function signal exists passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3530042293/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3530042293.dir/build.make CMakeFiles/cmTryCompileExec3530042293.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3530042293.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -DCHECK_FUNCTION_EXISTS=signal   -o CMakeFiles/cmTryCompileExec3530042293.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3530042293
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3530042293.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=signal -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec3530042293.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3530042293  -lm -ldl 
+
+
+Determining if the function longjmp exists passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec647564703/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec647564703.dir/build.make CMakeFiles/cmTryCompileExec647564703.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec647564703.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -DCHECK_FUNCTION_EXISTS=longjmp   -o CMakeFiles/cmTryCompileExec647564703.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:3:6: warning: declaration of built-in function 'longjmp' requires inclusion of the header <setjmp.h> [-Wbuiltin-requires-header]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS longjmp
+                              ^
+1 warning generated.
+Linking C executable cmTryCompileExec647564703
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec647564703.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=longjmp -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec647564703.dir/CheckFunctionExists.c.o  -o cmTryCompileExec647564703  -lm -ldl 
+
+
+Determining if the function setjmp exists passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2141944540/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2141944540.dir/build.make CMakeFiles/cmTryCompileExec2141944540.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2141944540.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -DCHECK_FUNCTION_EXISTS=setjmp   -o CMakeFiles/cmTryCompileExec2141944540.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:3:6: warning: declaration of built-in function 'setjmp' requires inclusion of the header <setjmp.h> [-Wbuiltin-requires-header]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS setjmp
+                              ^
+1 warning generated.
+Linking C executable cmTryCompileExec2141944540
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2141944540.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setjmp -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec2141944540.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2141944540  -lm -ldl 
+
+
+Determining if the function siglongjmp exists passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec869908188/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec869908188.dir/build.make CMakeFiles/cmTryCompileExec869908188.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec869908188.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -DCHECK_FUNCTION_EXISTS=siglongjmp   -o CMakeFiles/cmTryCompileExec869908188.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:3:6: warning: declaration of built-in function 'siglongjmp' requires inclusion of the header <setjmp.h> [-Wbuiltin-requires-header]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS siglongjmp
+                              ^
+1 warning generated.
+Linking C executable cmTryCompileExec869908188
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec869908188.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=siglongjmp -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec869908188.dir/CheckFunctionExists.c.o  -o cmTryCompileExec869908188  -lm -ldl 
+
+
+Determining if the function sigsetjmp exists passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec430965503/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec430965503.dir/build.make CMakeFiles/cmTryCompileExec430965503.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec430965503.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -DCHECK_FUNCTION_EXISTS=sigsetjmp   -o CMakeFiles/cmTryCompileExec430965503.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:3:6: warning: declaration of built-in function 'sigsetjmp' requires inclusion of the header <setjmp.h> [-Wbuiltin-requires-header]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sigsetjmp
+                              ^
+1 warning generated.
+Linking C executable cmTryCompileExec430965503
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec430965503.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sigsetjmp -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec430965503.dir/CheckFunctionExists.c.o  -o cmTryCompileExec430965503  -lm -ldl 
+
+
+Determining if the function sigaction exists passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3215656957/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3215656957.dir/build.make CMakeFiles/cmTryCompileExec3215656957.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3215656957.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -DCHECK_FUNCTION_EXISTS=sigaction   -o CMakeFiles/cmTryCompileExec3215656957.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3215656957
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3215656957.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sigaction -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec3215656957.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3215656957  -lm -ldl 
+
+
+Determining if the function sigprocmask exists passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec526798262/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec526798262.dir/build.make CMakeFiles/cmTryCompileExec526798262.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec526798262.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -DCHECK_FUNCTION_EXISTS=sigprocmask   -o CMakeFiles/cmTryCompileExec526798262.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec526798262
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec526798262.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sigprocmask -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec526798262.dir/CheckFunctionExists.c.o  -o cmTryCompileExec526798262  -lm -ldl 
+
+
+Determining if the function snprintf exists passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4246686881/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec4246686881.dir/build.make CMakeFiles/cmTryCompileExec4246686881.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4246686881.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -DCHECK_FUNCTION_EXISTS=snprintf   -o CMakeFiles/cmTryCompileExec4246686881.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'snprintf' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS snprintf
+                              ^
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:3:6: note: 'snprintf' is a builtin with type 'int (char *, unsigned long, const char *, ...)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS snprintf
+                              ^
+1 warning generated.
+Linking C executable cmTryCompileExec4246686881
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4246686881.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=snprintf -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec4246686881.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4246686881  -lm -ldl 
+
+
+Determining if the function srandom exists passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec745385154/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec745385154.dir/build.make CMakeFiles/cmTryCompileExec745385154.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec745385154.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -DCHECK_FUNCTION_EXISTS=srandom   -o CMakeFiles/cmTryCompileExec745385154.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec745385154
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec745385154.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=srandom -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec745385154.dir/CheckFunctionExists.c.o  -o cmTryCompileExec745385154  -lm -ldl 
+
+
+Determining if the function strdup exists passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec113810052/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec113810052.dir/build.make CMakeFiles/cmTryCompileExec113810052.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec113810052.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -DCHECK_FUNCTION_EXISTS=strdup   -o CMakeFiles/cmTryCompileExec113810052.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'strdup' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strdup
+                              ^
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:3:6: note: 'strdup' is a builtin with type 'char *(const char *)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strdup
+                              ^
+1 warning generated.
+Linking C executable cmTryCompileExec113810052
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec113810052.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strdup -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec113810052.dir/CheckFunctionExists.c.o  -o cmTryCompileExec113810052  -lm -ldl 
+
+
+Determining if the function symlink exists passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1954081514/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1954081514.dir/build.make CMakeFiles/cmTryCompileExec1954081514.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1954081514.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -DCHECK_FUNCTION_EXISTS=symlink   -o CMakeFiles/cmTryCompileExec1954081514.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1954081514
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1954081514.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=symlink -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1954081514.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1954081514  -lm -ldl 
+
+
+Determining if the function system exists passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1575945639/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1575945639.dir/build.make CMakeFiles/cmTryCompileExec1575945639.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1575945639.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -DCHECK_FUNCTION_EXISTS=system   -o CMakeFiles/cmTryCompileExec1575945639.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1575945639
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1575945639.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=system -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1575945639.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1575945639  -lm -ldl 
+
+
+Determining if the function tmpfile exists passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec558357445/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec558357445.dir/build.make CMakeFiles/cmTryCompileExec558357445.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec558357445.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -DCHECK_FUNCTION_EXISTS=tmpfile   -o CMakeFiles/cmTryCompileExec558357445.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec558357445
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec558357445.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=tmpfile -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec558357445.dir/CheckFunctionExists.c.o  -o cmTryCompileExec558357445  -lm -ldl 
+
+
+Determining if the function asprintf exists passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1534615338/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1534615338.dir/build.make CMakeFiles/cmTryCompileExec1534615338.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1534615338.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -DCHECK_FUNCTION_EXISTS=asprintf   -o CMakeFiles/cmTryCompileExec1534615338.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:11:25: warning: format string missing [-Wformat]
+  CHECK_FUNCTION_EXISTS();
+  ~~~~~~~~~~~~~~~~~~~~~ ^
+1 warning generated.
+Linking C executable cmTryCompileExec1534615338
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1534615338.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=asprintf -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1534615338.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1534615338  -lm -ldl 
+
+
+Determining if the function vasprintf exists passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1917078356/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1917078356.dir/build.make CMakeFiles/cmTryCompileExec1917078356.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1917078356.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -DCHECK_FUNCTION_EXISTS=vasprintf   -o CMakeFiles/cmTryCompileExec1917078356.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:11:25: warning: format string missing [-Wformat]
+  CHECK_FUNCTION_EXISTS();
+  ~~~~~~~~~~~~~~~~~~~~~ ^
+1 warning generated.
+Linking C executable cmTryCompileExec1917078356
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1917078356.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=vasprintf -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1917078356.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1917078356  -lm -ldl 
+
+
+Determining if the function waitpid exists passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4241130822/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec4241130822.dir/build.make CMakeFiles/cmTryCompileExec4241130822.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4241130822.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -DCHECK_FUNCTION_EXISTS=waitpid   -o CMakeFiles/cmTryCompileExec4241130822.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4241130822
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4241130822.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=waitpid -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec4241130822.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4241130822  -lm -ldl 
+
+
+Determining if the function vsnprintf exists passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec623012365/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec623012365.dir/build.make CMakeFiles/cmTryCompileExec623012365.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec623012365.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -DCHECK_FUNCTION_EXISTS=vsnprintf   -o CMakeFiles/cmTryCompileExec623012365.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'vsnprintf' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS vsnprintf
+                              ^
+/Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c:3:6: note: 'vsnprintf' is a builtin with type 'int (char *, unsigned long, const char *, __va_list_tag *)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS vsnprintf
+                              ^
+1 warning generated.
+Linking C executable cmTryCompileExec623012365
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec623012365.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=vsnprintf -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec623012365.dir/CheckFunctionExists.c.o  -o cmTryCompileExec623012365  -lm -ldl 
+
+
+Determining if the tzname exist passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec690693114/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec690693114.dir/build.make CMakeFiles/cmTryCompileExec690693114.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec690693114.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -o CMakeFiles/cmTryCompileExec690693114.dir/CheckSymbolExists.c.o   -c /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec690693114
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec690693114.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec690693114.dir/CheckSymbolExists.c.o  -o cmTryCompileExec690693114  -lm -ldl 
+
+File /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef tzname
+  return ((int*)(&tzname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function difftime exists passed with the following output:
+Change Dir: /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec830793308/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec830793308.dir/build.make CMakeFiles/cmTryCompileExec830793308.dir/build
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Volumes/User/hdf5/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec830793308.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -DCHECK_FUNCTION_EXISTS=difftime   -o CMakeFiles/cmTryCompileExec830793308.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.1/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec830793308
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec830793308.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=difftime -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec830793308.dir/CheckFunctionExists.c.o  -o cmTryCompileExec830793308  -lm -ldl 
+
+

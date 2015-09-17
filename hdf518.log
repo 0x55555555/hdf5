@@ -1,0 +1,28 @@
+[HANDLER_OUTPUT] 
+-- Dashboard script uname output: Darwin-14.5.0-x86_64
+
+
+-- Dashboard script configuration:
+  CTEST_SITE=[MrMac]
+  CTEST_BUILD_NAME=[Darwin-14.5.0-x86_64-STATIC]
+  CTEST_SOURCE_DIRECTORY=[/Volumes/User/hdf5/cmake/hdf5-1.8.15-patch1]
+  CTEST_BINARY_DIRECTORY=[/Volumes/User/hdf5/cmake/build]
+  CTEST_CMAKE_GENERATOR=[Unix Makefiles]
+  CTEST_BUILD_CONFIGURATION=[Release]
+  CTEST_GIT_COMMAND=[]
+  CTEST_CHECKOUT_COMMAND=[]
+  CTEST_CONFIGURE_COMMAND=["/Applications/CMake.app/Contents/bin/cmake" -C "/Volumes/User/hdf5/cmake/hdf5-1.8.15-patch1/config/cmake/cacheinit.cmake" -DCMAKE_BUILD_TYPE:STRING=Release  -DHDF5_BUILD_TOOLS:BOOL=ON -DBUILD_SHARED_LIBS:BOOL=OFF -DHDF5_ALLOW_EXTERNAL_SUPPORT:STRING=TGZ -DTGZPATH:PATH=/Volumes/User/hdf5/cmake -DHDF5_ENABLE_F2003:BOOL=ON -DHDF5_BUILD_FORTRAN:BOOL=OFF -DHDF5_PACKAGE_EXTLIBS:BOOL=ON -DCTEST_USE_LAUNCHERS:BOOL=ON -DCMAKE_BUILD_WITH_INSTALL_RPATH:BOOL=OFF "-GUnix Makefiles" "/Volumes/User/hdf5/cmake/hdf5-1.8.15-patch1"]
+  CTEST_SCRIPT_DIRECTORY=[/Volumes/User/hdf5/cmake]
+  CTEST_USE_LAUNCHERS=[]
+
+
+Run dashboard with model Experimental
+   Source directory: /Volumes/User/hdf5/cmake/hdf5-1.8.15-patch1
+   Build directory: /Volumes/User/hdf5/cmake/build
+   Track: Experimental
+Configure project
+[ERROR_MESSAGE] 
+Current Tag empty, this may mean NightlyStartTime / CTEST_NIGHTLY_START_TIME was not set correctly. Or maybe you forgot to call ctest_start() before calling ctest_configure().
+
+Cannot open configure file
+Error in read script: /Volumes/User/hdf5/cmake/HDF518config.cmake

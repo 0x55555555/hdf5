@@ -1,0 +1,43 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "C"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_C
+  "/Volumes/User/hdf5/hl/src/H5DO.c" "/Volumes/User/hdf5/build/hl/src/CMakeFiles/hdf5_hl.dir/H5DO.c.o"
+  "/Volumes/User/hdf5/hl/src/H5DS.c" "/Volumes/User/hdf5/build/hl/src/CMakeFiles/hdf5_hl.dir/H5DS.c.o"
+  "/Volumes/User/hdf5/hl/src/H5IM.c" "/Volumes/User/hdf5/build/hl/src/CMakeFiles/hdf5_hl.dir/H5IM.c.o"
+  "/Volumes/User/hdf5/hl/src/H5LT.c" "/Volumes/User/hdf5/build/hl/src/CMakeFiles/hdf5_hl.dir/H5LT.c.o"
+  "/Volumes/User/hdf5/hl/src/H5LTanalyze.c" "/Volumes/User/hdf5/build/hl/src/CMakeFiles/hdf5_hl.dir/H5LTanalyze.c.o"
+  "/Volumes/User/hdf5/hl/src/H5LTparse.c" "/Volumes/User/hdf5/build/hl/src/CMakeFiles/hdf5_hl.dir/H5LTparse.c.o"
+  "/Volumes/User/hdf5/hl/src/H5PT.c" "/Volumes/User/hdf5/build/hl/src/CMakeFiles/hdf5_hl.dir/H5PT.c.o"
+  "/Volumes/User/hdf5/hl/src/H5TB.c" "/Volumes/User/hdf5/build/hl/src/CMakeFiles/hdf5_hl.dir/H5TB.c.o"
+  )
+set(CMAKE_C_COMPILER_ID "AppleClang")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS
+  "DEBUG"
+  "_BSD_SOURCE"
+  "_FILE_OFFSET_BITS=64"
+  "_LARGEFILE64_SOURCE"
+  "_LARGEFILE_SOURCE"
+  "_POSIX_C_SOURCE=199506L"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/Volumes/User/hdf5/build/src/CMakeFiles/hdf5.dir/DependInfo.cmake"
+  )
+
+# The include file search paths:
+set(CMAKE_C_TARGET_INCLUDE_PATH
+  "."
+  "../src"
+  "bin"
+  "../hl/src"
+  "src"
+  )
+set(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
+set(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
+set(CMAKE_ASM_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
